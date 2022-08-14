@@ -1,0 +1,23 @@
+.contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.contactLeft,
+.contactRight {
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactHeading {
+    margin-top: 1vmax;
+    font-size: 2vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: teal;
+}

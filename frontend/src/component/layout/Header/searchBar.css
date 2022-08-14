@@ -1,0 +1,74 @@
+.searchContainer {
+    width: 100vw;
+    max-width: 100%;
+    background-color: rgb(231, 231, 231);
+    padding: 2vmax 0;
+    z-index: 990;
+    position: relative;
+}
+
+.closeIcon {
+    position: absolute;
+    top: 1vmax;
+    right: 6vmax;
+    cursor: pointer;
+}
+
+.closeIcon:hover {
+    color: teal;
+    font-weight: bold;
+}
+
+.notActive {
+    display: none;
+}
+
+.searchBox {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+}
+
+.searchBox>input[type="text"] {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+    background-color: white;
+    border: none;
+    color: rgba(0, 0, 0, 0.637);
+    padding: 1vmax 2vmax;
+    width: 50%;
+    outline: none;
+    border-radius: 0%;
+    font: 300 1.1vmax cursive;
+    box-sizing: border-box;
+    height: 3vmax;
+}
+
+.searchBox>input[type="submit"] {
+
+    background-color: teal;
+    border: none;
+    padding: 1vmax;
+    height: 3vmax;
+    width: 8vmax;
+    font: 300 1.1vmax "Roboto";
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+}
+
+.searchBox>input[type="submit"]:hover {
+    background-color: rgb(55, 97, 214);
+}
+
+.searchProductsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vmax;
+}
+
+.noProductText {
+    font-size: 1.2vmax;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

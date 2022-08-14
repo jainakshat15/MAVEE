@@ -1,0 +1,20 @@
+.headerContainer {
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+    transition: all ease 3s;
+}
+
+.speedDial {
+    position: fixed;
+    right: 1vmax;
+    top: 6vmax;
+    z-index: 1002 !important;
+}
+
+.speedDialIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    object-fit: cover;
+}
