@@ -2,6 +2,5 @@
     "version": 2,
     "name": "native-server",
     "builds": [{ "src": "backend/server.js", "use": "@vercel/node" }],
-    "routes": [{ "src": "/(.*)", "dest": "/backend/server.js" }],
-    "postbuild":"NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+    "routes": [{ "src": "/(.*)", "dest": "/backend/server.js" }]
   }
