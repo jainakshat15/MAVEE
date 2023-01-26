@@ -41,7 +41,7 @@ const Home = () => {
         },
         {
           id: 2,
-          img: "https://zololabel.com/wp-content/uploads/2022/05/SPP36856-937x1406.jpg",
+          img: "https://res.cloudinary.com/jainakshat/image/upload/v1674718428/products/womencategoryimage_vrn7fw.webp",
           title: "WOMEN WEAR",
           link: '/products?cat=women'
         },
